@@ -1,0 +1,5537 @@
+{
+  "component_lib": {
+    "C": {
+      "art": [
+        {
+          "count": 2, 
+          "line_width": "20", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              -80, 
+              -30
+            ], 
+            [
+              80, 
+              -30
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 2, 
+          "line_width": "20", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              -80, 
+              30
+            ], 
+            [
+              80, 
+              30
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }
+      ], 
+      "name": "C", 
+      "reference": "C2", 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "C2", 
+          "hjustify": "L", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              0, 
+              -133.33333333333334
+            ], 
+            [
+              80, 
+              -66.66666666666666
+            ]
+          ], 
+          "italic": false, 
+          "y": "100", 
+          "x": "0", 
+          "size": "40", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "C", 
+          "hjustify": "L", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              6, 
+              51.666666666666664
+            ], 
+            [
+              46, 
+              118.33333333333334
+            ]
+          ], 
+          "italic": false, 
+          "y": "-85", 
+          "x": "6", 
+          "size": "40", 
+          "bold": false
+        }, 
+        {
+          "text": " \"~\" 38 -150 30 H V C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "2"
+        }, 
+        {
+          "text": " \"~\" 0 0 60 H V C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "3"
+        }
+      ], 
+      "pin": [
+        {
+          "direction": "D", 
+          "name": "~", 
+          "length": "170", 
+          "number": "1", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "40", 
+          "y": "200", 
+          "x": "0", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "40", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "U", 
+          "name": "~", 
+          "length": "170", 
+          "number": "2", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "40", 
+          "y": "-200", 
+          "x": "0", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "40", 
+          "unit": "1"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -80, 
+          -200
+        ], 
+        [
+          80, 
+          200
+        ]
+      ], 
+      "power_flag": "N", 
+      "text_offset": "10", 
+      "draw_pin_name": true, 
+      "units_locked": "F", 
+      "draw_pin_number": false, 
+      "unit_count": 1, 
+      "coarse_bounding_box": [
+        [
+          -80, 
+          -200
+        ], 
+        [
+          80, 
+          200
+        ]
+      ]
+    }, 
+    "VCC": {
+      "art": [
+        {
+          "line_width": "0", 
+          "shape": "circle", 
+          "r": 20, 
+          "y": 50, 
+          "x": 0, 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 3, 
+          "line_width": "0", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              30
+            ], 
+            [
+              0, 
+              30
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }
+      ], 
+      "name": "VCC", 
+      "reference": "#PWR3", 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "#PWR3", 
+          "hjustify": "C", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -75, 
+              -125
+            ], 
+            [
+              75, 
+              -75
+            ]
+          ], 
+          "italic": false, 
+          "y": "100", 
+          "x": "0", 
+          "size": "30", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "VCC", 
+          "hjustify": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -45, 
+              -125
+            ], 
+            [
+              45, 
+              -75
+            ]
+          ], 
+          "italic": false, 
+          "y": "100", 
+          "x": "0", 
+          "size": "30", 
+          "bold": false
+        }
+      ], 
+      "pin": [
+        {
+          "pin_type": "N", 
+          "direction": "U", 
+          "name": "VCC", 
+          "number": "1", 
+          "visible": false, 
+          "shape": " N", 
+          "text_size_number": "20", 
+          "x": "0", 
+          "y": "0", 
+          "length": "0", 
+          "electrical_type": "W", 
+          "de_morgan_alternate_shape": "0", 
+          "text_size_name": "20", 
+          "unit": "0"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -20, 
+          0
+        ], 
+        [
+          20, 
+          70
+        ]
+      ], 
+      "power_flag": "P", 
+      "text_offset": "0", 
+      "draw_pin_name": true, 
+      "units_locked": "F", 
+      "draw_pin_number": true, 
+      "unit_count": 1, 
+      "coarse_bounding_box": [
+        [
+          -75, 
+          0
+        ], 
+        [
+          75, 
+          75
+        ]
+      ]
+    }, 
+    "LED": {
+      "art": [
+        {
+          "count": 2, 
+          "line_width": "0", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              50, 
+              50
+            ], 
+            [
+              50, 
+              -50
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 3, 
+          "line_width": "0", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              -50, 
+              50
+            ], 
+            [
+              50, 
+              0
+            ], 
+            [
+              -50, 
+              -50
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "F"
+        }, 
+        {
+          "count": 3, 
+          "line_width": "0", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              65, 
+              -40
+            ], 
+            [
+              110, 
+              -80
+            ], 
+            [
+              105, 
+              -55
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 3, 
+          "line_width": "0", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              80, 
+              -25
+            ], 
+            [
+              125, 
+              -65
+            ], 
+            [
+              120, 
+              -40
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }
+      ], 
+      "name": "LED", 
+      "reference": "D9", 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D9", 
+          "hjustify": "C", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": "100", 
+          "x": "0", 
+          "size": "50", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": "-100", 
+          "x": "0", 
+          "size": "50", 
+          "bold": false
+        }, 
+        {
+          "text": " \"~\" 0 0 60 H V C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "2"
+        }, 
+        {
+          "text": " \"~\" 0 0 60 H V C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "3"
+        }
+      ], 
+      "pin": [
+        {
+          "direction": "R", 
+          "name": "A", 
+          "length": "150", 
+          "number": "1", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "40", 
+          "y": "0", 
+          "x": "-200", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "40", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "L", 
+          "name": "K", 
+          "length": "150", 
+          "number": "2", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "40", 
+          "y": "0", 
+          "x": "200", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "40", 
+          "unit": "1"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -200, 
+          -80
+        ], 
+        [
+          200, 
+          50
+        ]
+      ], 
+      "power_flag": "N", 
+      "text_offset": "40", 
+      "draw_pin_name": false, 
+      "units_locked": "F", 
+      "draw_pin_number": true, 
+      "unit_count": 1, 
+      "coarse_bounding_box": [
+        [
+          -200, 
+          -80
+        ], 
+        [
+          200, 
+          58.33333333333333
+        ]
+      ]
+    }, 
+    "~GND": {
+      "art": [
+        {
+          "count": 4, 
+          "line_width": "0", 
+          "convert": "1", 
+          "shape": "path", 
+          "path": [
+            [
+              -50, 
+              0
+            ], 
+            [
+              0, 
+              -50
+            ], 
+            [
+              50, 
+              0
+            ], 
+            [
+              -50, 
+              0
+            ]
+          ], 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }
+      ], 
+      "name": "~GND", 
+      "reference": "#PWR4", 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "#PWR4", 
+          "hjustify": "C", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -75, 
+              -25
+            ], 
+            [
+              75, 
+              25
+            ]
+          ], 
+          "italic": false, 
+          "y": "0", 
+          "x": "0", 
+          "size": "30", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "GND", 
+          "hjustify": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -45, 
+              45
+            ], 
+            [
+              45, 
+              95
+            ]
+          ], 
+          "italic": false, 
+          "y": "-70", 
+          "x": "0", 
+          "size": "30", 
+          "bold": false
+        }
+      ], 
+      "pin": [
+        {
+          "pin_type": "N", 
+          "direction": "U", 
+          "name": "GND", 
+          "number": "1", 
+          "visible": false, 
+          "shape": " N", 
+          "text_size_number": "30", 
+          "x": "0", 
+          "y": "0", 
+          "length": "0", 
+          "electrical_type": "W", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "30", 
+          "unit": "1"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -50, 
+          -50
+        ], 
+        [
+          50, 
+          0
+        ]
+      ], 
+      "power_flag": "P", 
+      "text_offset": "0", 
+      "draw_pin_name": true, 
+      "units_locked": "F", 
+      "draw_pin_number": true, 
+      "unit_count": 1, 
+      "coarse_bounding_box": [
+        [
+          -75, 
+          -50
+        ], 
+        [
+          75, 
+          0
+        ]
+      ]
+    }, 
+    "R": {
+      "art": [
+        {
+          "line_width": "12", 
+          "height": 300, 
+          "width": 80, 
+          "shape": "rectangle", 
+          "y": 150, 
+          "x": -40, 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "N"
+        }
+      ], 
+      "name": "R", 
+      "reference": "R4", 
+      "text": [
+        {
+          "orientation": "V", 
+          "reference": "R4", 
+          "hjustify": "C", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              46.666666666666664, 
+              -40
+            ], 
+            [
+              113.33333333333334, 
+              40
+            ]
+          ], 
+          "italic": false, 
+          "y": "0", 
+          "x": "80", 
+          "size": "40", 
+          "bold": false
+        }, 
+        {
+          "orientation": "V", 
+          "reference": "R", 
+          "hjustify": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -26.333333333333336, 
+              -21
+            ], 
+            [
+              40.333333333333336, 
+              19
+            ]
+          ], 
+          "italic": false, 
+          "y": "1", 
+          "x": "7", 
+          "size": "40", 
+          "bold": false
+        }, 
+        {
+          "text": " \"~\" -70 0 30 V V C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "2"
+        }, 
+        {
+          "text": " \"~\" 0 0 30 H V C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "3"
+        }
+      ], 
+      "pin": [
+        {
+          "direction": "D", 
+          "name": "~", 
+          "length": "100", 
+          "number": "1", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "60", 
+          "y": "250", 
+          "x": "0", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "60", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "U", 
+          "name": "~", 
+          "length": "100", 
+          "number": "2", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "60", 
+          "y": "-250", 
+          "x": "0", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "60", 
+          "unit": "1"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -40, 
+          -250
+        ], 
+        [
+          40, 
+          250
+        ]
+      ], 
+      "power_flag": "N", 
+      "text_offset": "0", 
+      "draw_pin_name": true, 
+      "units_locked": "F", 
+      "draw_pin_number": false, 
+      "unit_count": 1, 
+      "coarse_bounding_box": [
+        [
+          -40, 
+          -250
+        ], 
+        [
+          113.33333333333334, 
+          250
+        ]
+      ]
+    }, 
+    "ATTINY13-P": {
+      "art": [
+        {
+          "line_width": "10", 
+          "height": 700, 
+          "width": 1600, 
+          "shape": "rectangle", 
+          "y": 0, 
+          "x": 0, 
+          "de_morgan_alternate_shape": "1", 
+          "unit": "0", 
+          "fill": "f"
+        }
+      ], 
+      "name": "ATTINY13-P", 
+      "reference": "IC1", 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "IC1", 
+          "hjustify": "C", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              10, 
+              -100
+            ], 
+            [
+              190, 
+              0
+            ]
+          ], 
+          "italic": false, 
+          "y": "50", 
+          "x": "100", 
+          "size": "60", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "ATTINY13-P", 
+          "hjustify": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              1000, 
+              700
+            ], 
+            [
+              1600, 
+              800
+            ]
+          ], 
+          "italic": false, 
+          "y": "-750", 
+          "x": "1300", 
+          "size": "60", 
+          "bold": false
+        }, 
+        {
+          "text": " \"DIP8\" 100 -750 60 H I C CNN", 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "number": "2"
+        }
+      ], 
+      "pin": [
+        {
+          "direction": "R", 
+          "name": "PB5(~RESET~/ADC0/PCINT5/dW)", 
+          "length": "200", 
+          "number": "1", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-600", 
+          "x": "-200", 
+          "electrical_type": "B", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "R", 
+          "name": "PB3(CLKI/ADC3/PCINT3)", 
+          "length": "200", 
+          "number": "2", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-400", 
+          "x": "-200", 
+          "electrical_type": "B", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "R", 
+          "name": "PB4(ADC2/PCINT4)", 
+          "length": "200", 
+          "number": "3", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-500", 
+          "x": "-200", 
+          "electrical_type": "B", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "L", 
+          "name": "GND", 
+          "length": "200", 
+          "number": "4", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-600", 
+          "x": "1800", 
+          "electrical_type": "W", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "R", 
+          "name": "PB0(MOSI/AIN0/OC0A/PCINT0)", 
+          "length": "200", 
+          "number": "5", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-100", 
+          "x": "-200", 
+          "electrical_type": "B", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "R", 
+          "name": "PB1(MISO/AIN1/OC0B/INT0/PCINT1)", 
+          "length": "200", 
+          "number": "6", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-200", 
+          "x": "-200", 
+          "electrical_type": "B", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "R", 
+          "name": "PB2(SCK/ADC1/T0/PCINT2)", 
+          "length": "200", 
+          "number": "7", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-300", 
+          "x": "-200", 
+          "electrical_type": "B", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }, 
+        {
+          "direction": "L", 
+          "name": "VCC", 
+          "length": "200", 
+          "number": "8", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "50", 
+          "y": "-100", 
+          "x": "1800", 
+          "electrical_type": "W", 
+          "de_morgan_alternate_shape": "1", 
+          "text_size_name": "50", 
+          "unit": "1"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -200, 
+          -700
+        ], 
+        [
+          1800, 
+          0
+        ]
+      ], 
+      "power_flag": "N", 
+      "text_offset": "40", 
+      "draw_pin_name": true, 
+      "units_locked": "F", 
+      "draw_pin_number": true, 
+      "unit_count": 1, 
+      "coarse_bounding_box": [
+        [
+          -200, 
+          -700
+        ], 
+        [
+          1800, 
+          0
+        ]
+      ]
+    }, 
+    "CR1220SMT_CR1220-SMD": {
+      "art": [
+        {
+          "count": 2, 
+          "line_width": "16", 
+          "convert": "0", 
+          "shape": "path", 
+          "path": [
+            [
+              -25, 
+              25
+            ], 
+            [
+              -25, 
+              0
+            ]
+          ], 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 2, 
+          "line_width": "6", 
+          "convert": "0", 
+          "shape": "path", 
+          "path": [
+            [
+              -100, 
+              0
+            ], 
+            [
+              -25, 
+              0
+            ]
+          ], 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 2, 
+          "line_width": "16", 
+          "convert": "0", 
+          "shape": "path", 
+          "path": [
+            [
+              -25, 
+              0
+            ], 
+            [
+              -25, 
+              -25
+            ]
+          ], 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 2, 
+          "line_width": "6", 
+          "convert": "0", 
+          "shape": "path", 
+          "path": [
+            [
+              25, 
+              100
+            ], 
+            [
+              100, 
+              100
+            ]
+          ], 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 2, 
+          "line_width": "16", 
+          "convert": "0", 
+          "shape": "path", 
+          "path": [
+            [
+              25, 
+              100
+            ], 
+            [
+              25, 
+              -100
+            ]
+          ], 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "count": 2, 
+          "line_width": "6", 
+          "convert": "0", 
+          "shape": "path", 
+          "path": [
+            [
+              25, 
+              -100
+            ], 
+            [
+              100, 
+              -100
+            ]
+          ], 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "fill": "N"
+        }, 
+        {
+          "direction": "0", 
+          "text": ">NAME", 
+          "shape": "text", 
+          "type": "0", 
+          "y": 125, 
+          "x": -50, 
+          "direction_unit": "deci-degrees", 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "size": "70"
+        }, 
+        {
+          "direction": "0", 
+          "text": ">VALUE", 
+          "shape": "text", 
+          "type": "0", 
+          "y": -200, 
+          "x": -50, 
+          "direction_unit": "deci-degrees", 
+          "de_morgan_alternate_shape": "0", 
+          "unit": "0", 
+          "size": "70"
+        }
+      ], 
+      "name": "CR1220SMT_CR1220-SMD", 
+      "reference": "U1", 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "U1", 
+          "hjustify": "C", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "italic": false, 
+          "y": "0", 
+          "x": "0", 
+          "size": "0", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "CR1220SMT_CR1220-SMD", 
+          "hjustify": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "italic": false, 
+          "y": "0", 
+          "x": "0", 
+          "size": "0", 
+          "bold": false
+        }
+      ], 
+      "pin": [
+        {
+          "direction": "L", 
+          "name": "+", 
+          "length": "100", 
+          "number": "+$1", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "0", 
+          "y": "100", 
+          "x": "200", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "0", 
+          "text_size_name": "0", 
+          "unit": "0"
+        }, 
+        {
+          "direction": "R", 
+          "name": "-", 
+          "length": "100", 
+          "number": "-", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "0", 
+          "y": "0", 
+          "x": "-200", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "0", 
+          "text_size_name": "0", 
+          "unit": "0"
+        }, 
+        {
+          "direction": "L", 
+          "name": "+1", 
+          "length": "100", 
+          "number": "+$2", 
+          "visible": true, 
+          "shape": null, 
+          "text_size_number": "0", 
+          "y": "-100", 
+          "x": "200", 
+          "electrical_type": "P", 
+          "de_morgan_alternate_shape": "0", 
+          "text_size_name": "0", 
+          "unit": "0"
+        }
+      ], 
+      "bounding_box": [
+        [
+          -200, 
+          -270
+        ], 
+        [
+          200, 
+          195
+        ]
+      ], 
+      "power_flag": "N", 
+      "text_offset": "100", 
+      "draw_pin_name": true, 
+      "units_locked": "0", 
+      "draw_pin_number": true, 
+      "unit_count": 2, 
+      "coarse_bounding_box": [
+        [
+          -200, 
+          -270
+        ], 
+        [
+          200, 
+          195
+        ]
+      ]
+    }
+  }, 
+  "net_pin_id_map": {
+    "f613f3be-f356-5602-c3ce-8e2d9b340f75:2": {
+      "netcode": 17, 
+      "id": "f613f3be-f356-5602-c3ce-8e2d9b340f75", 
+      "pin": "2"
+    }, 
+    "f613f3be-f356-5602-c3ce-8e2d9b340f75:1": {
+      "netcode": 41, 
+      "id": "f613f3be-f356-5602-c3ce-8e2d9b340f75", 
+      "pin": "1"
+    }, 
+    "65654c19-a4a3-64f9-a649-852581a5f787:2": {
+      "netcode": 27, 
+      "id": "65654c19-a4a3-64f9-a649-852581a5f787", 
+      "pin": "2"
+    }, 
+    "65654c19-a4a3-64f9-a649-852581a5f787:1": {
+      "netcode": 37, 
+      "id": "65654c19-a4a3-64f9-a649-852581a5f787", 
+      "pin": "1"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:4": {
+      "netcode": 1, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "4"
+    }, 
+    "fa81f438-84fa-c29c-6b9d-6100cb9bf949:1": {
+      "netcode": 37, 
+      "id": "fa81f438-84fa-c29c-6b9d-6100cb9bf949", 
+      "pin": "1"
+    }, 
+    "fa81f438-84fa-c29c-6b9d-6100cb9bf949:2": {
+      "netcode": 17, 
+      "id": "fa81f438-84fa-c29c-6b9d-6100cb9bf949", 
+      "pin": "2"
+    }, 
+    "b7765d26-9ccd-87b6-3f57-26b8047d265d:1": {
+      "netcode": 4, 
+      "id": "b7765d26-9ccd-87b6-3f57-26b8047d265d", 
+      "pin": "1"
+    }, 
+    "b7765d26-9ccd-87b6-3f57-26b8047d265d:2": {
+      "netcode": 1, 
+      "id": "b7765d26-9ccd-87b6-3f57-26b8047d265d", 
+      "pin": "2"
+    }, 
+    "c56c81da-9dfc-ee01-b5e4-c1727d0691cc:1": {
+      "netcode": 41, 
+      "id": "c56c81da-9dfc-ee01-b5e4-c1727d0691cc", 
+      "pin": "1"
+    }, 
+    "c56c81da-9dfc-ee01-b5e4-c1727d0691cc:2": {
+      "netcode": 27, 
+      "id": "c56c81da-9dfc-ee01-b5e4-c1727d0691cc", 
+      "pin": "2"
+    }, 
+    "b90ce9dc-d770-7276-adf9-f67bbab64203:2": {
+      "netcode": 17, 
+      "id": "b90ce9dc-d770-7276-adf9-f67bbab64203", 
+      "pin": "2"
+    }, 
+    "b90ce9dc-d770-7276-adf9-f67bbab64203:1": {
+      "netcode": 45, 
+      "id": "b90ce9dc-d770-7276-adf9-f67bbab64203", 
+      "pin": "1"
+    }, 
+    "7d48bb9d-aded-bd73-0943-80e91caaf083:1": {
+      "netcode": 49, 
+      "id": "7d48bb9d-aded-bd73-0943-80e91caaf083", 
+      "pin": "1"
+    }, 
+    "f17b7f49-e9cd-a71a-297e-761db9e03ebe:2": {
+      "netcode": 27, 
+      "id": "f17b7f49-e9cd-a71a-297e-761db9e03ebe", 
+      "pin": "2"
+    }, 
+    "f17b7f49-e9cd-a71a-297e-761db9e03ebe:1": {
+      "netcode": 49, 
+      "id": "f17b7f49-e9cd-a71a-297e-761db9e03ebe", 
+      "pin": "1"
+    }, 
+    "7d48bb9d-aded-bd73-0943-80e91caaf083:2": {
+      "netcode": 17, 
+      "id": "7d48bb9d-aded-bd73-0943-80e91caaf083", 
+      "pin": "2"
+    }, 
+    "a8a17d8e-f568-053a-5e70-35907ddb04d6:1": {
+      "netcode": 49, 
+      "id": "a8a17d8e-f568-053a-5e70-35907ddb04d6", 
+      "pin": "1"
+    }, 
+    "a8a17d8e-f568-053a-5e70-35907ddb04d6:2": {
+      "netcode": 7, 
+      "id": "a8a17d8e-f568-053a-5e70-35907ddb04d6", 
+      "pin": "2"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:7": {
+      "netcode": 139, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "7"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:6": {
+      "netcode": 17, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "6"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:5": {
+      "netcode": 7, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "5"
+    }, 
+    "7c625060-eb78-13ac-bcb0-39092bc74933:-": {
+      "netcode": 1, 
+      "id": "7c625060-eb78-13ac-bcb0-39092bc74933", 
+      "pin": "-"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:3": {
+      "netcode": 109, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "3"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:2": {
+      "netcode": 27, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "2"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:1": {
+      "netcode": 138, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "1"
+    }, 
+    "5ce89d52-1ecb-e882-7c54-a40fbaa6c476:1": {
+      "netcode": 49, 
+      "id": "5ce89d52-1ecb-e882-7c54-a40fbaa6c476", 
+      "pin": "1"
+    }, 
+    "332ea4fa-4d80-7a63-bddc-de33a0252b07:8": {
+      "netcode": 4, 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "pin": "8"
+    }, 
+    "6a0948b7-65ce-2685-0728-0dc9e456a4be:2": {
+      "netcode": 7, 
+      "id": "6a0948b7-65ce-2685-0728-0dc9e456a4be", 
+      "pin": "2"
+    }, 
+    "6a0948b7-65ce-2685-0728-0dc9e456a4be:1": {
+      "netcode": 37, 
+      "id": "6a0948b7-65ce-2685-0728-0dc9e456a4be", 
+      "pin": "1"
+    }, 
+    "5ce89d52-1ecb-e882-7c54-a40fbaa6c476:2": {
+      "netcode": 109, 
+      "id": "5ce89d52-1ecb-e882-7c54-a40fbaa6c476", 
+      "pin": "2"
+    }, 
+    "8faa4e66-bb5a-323d-77c1-48c0e372faff:2": {
+      "netcode": 7, 
+      "id": "8faa4e66-bb5a-323d-77c1-48c0e372faff", 
+      "pin": "2"
+    }, 
+    "8faa4e66-bb5a-323d-77c1-48c0e372faff:1": {
+      "netcode": 41, 
+      "id": "8faa4e66-bb5a-323d-77c1-48c0e372faff", 
+      "pin": "1"
+    }, 
+    "af26ce76-2ae3-b857-0b2e-947b71edeaaf:2": {
+      "netcode": 27, 
+      "id": "af26ce76-2ae3-b857-0b2e-947b71edeaaf", 
+      "pin": "2"
+    }, 
+    "af26ce76-2ae3-b857-0b2e-947b71edeaaf:1": {
+      "netcode": 45, 
+      "id": "af26ce76-2ae3-b857-0b2e-947b71edeaaf", 
+      "pin": "1"
+    }, 
+    "7c625060-eb78-13ac-bcb0-39092bc74933:+$2": {
+      "netcode": 137, 
+      "id": "7c625060-eb78-13ac-bcb0-39092bc74933", 
+      "pin": "+$2"
+    }, 
+    "7c625060-eb78-13ac-bcb0-39092bc74933:+$1": {
+      "netcode": 4, 
+      "id": "7c625060-eb78-13ac-bcb0-39092bc74933", 
+      "pin": "+$1"
+    }, 
+    "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed:1": {
+      "netcode": 45, 
+      "id": "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed", 
+      "pin": "1"
+    }, 
+    "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed:2": {
+      "netcode": 7, 
+      "id": "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed", 
+      "pin": "2"
+    }
+  }, 
+  "element": [
+    {
+      "reference": "U1", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          -1
+        ], 
+        [
+          -1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "U1", 
+          "hjustify": "C", 
+          "text": "U1", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "italic": false, 
+          "y": -800, 
+          "x": -2550, 
+          "size": "0", 
+          "id": "7c625060-eb78-13ac-bcb0-39092bc74933,11094fbc-fb4c-36f8-fa0e-ccf098f94197", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "CR1220SMT_CR1220-SMD", 
+          "hjustify": "C", 
+          "text": "CR1220SMT_CR1220-SMD", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              0, 
+              0
+            ], 
+            [
+              0, 
+              0
+            ]
+          ], 
+          "italic": false, 
+          "y": -800, 
+          "x": -2550, 
+          "size": "0", 
+          "id": "7c625060-eb78-13ac-bcb0-39092bc74933,885c0eb3-039e-46d1-104c-9040c91dad62", 
+          "bold": false
+        }
+      ], 
+      "y": -800, 
+      "x": -2550, 
+      "pinData": {
+        "-": {
+          "y": -600, 
+          "x": -2550, 
+          "netcode": 1, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "+$1": {
+          "y": -1000, 
+          "x": -2650, 
+          "netcode": 4, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "+$2": {
+          "y": -1000, 
+          "x": -2450, 
+          "netcode": 137, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "7c625060-eb78-13ac-bcb0-39092bc74933", 
+      "hideFlag": false, 
+      "name": "CR1220SMT_CR1220-SMD"
+    }, 
+    {
+      "reference": "#PWR1", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "powerPinData": {
+        "1": {
+          "y": -1150, 
+          "x": -2650, 
+          "netcode": 4, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "#PWR1", 
+          "hjustify": "C", 
+          "text": "#PWR1", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -75, 
+              -125
+            ], 
+            [
+              75, 
+              -75
+            ]
+          ], 
+          "italic": false, 
+          "y": -1050, 
+          "x": -2650, 
+          "size": "30", 
+          "id": "1f48283d-00d1-8ae0-ec79-d832d28a6ec6,aeda53a8-536d-7917-f64a-e0966160e365", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "VCC", 
+          "hjustify": "C", 
+          "text": "VCC", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -45, 
+              -125
+            ], 
+            [
+              45, 
+              -75
+            ]
+          ], 
+          "italic": false, 
+          "y": -1050, 
+          "x": -2650, 
+          "size": "30", 
+          "id": "1f48283d-00d1-8ae0-ec79-d832d28a6ec6,1c5d9a4b-d17f-e174-849d-e8bf6aa8bb2c", 
+          "bold": false
+        }
+      ], 
+      "y": -1150, 
+      "x": -2650, 
+      "type": "component", 
+      "id": "1f48283d-00d1-8ae0-ec79-d832d28a6ec6", 
+      "hideFlag": false, 
+      "name": "VCC"
+    }, 
+    {
+      "startx": -2650, 
+      "starty": -1150, 
+      "endy": -1000, 
+      "endx": -2650, 
+      "data": {
+        "netcode": 4, 
+        "y1": -1000, 
+        "y0": -1150, 
+        "x0": -2650, 
+        "x1": -2650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -2700, 
+          -1150
+        ], 
+        [
+          -2600, 
+          -1000
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "9db82d14-01fc-ceaf-a9bd-d612166ef229", 
+      "hideFlag": false
+    }, 
+    {
+      "reference": "#PWR2", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "powerPinData": {
+        "1": {
+          "y": -450, 
+          "x": -2550, 
+          "netcode": 1, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "#PWR2", 
+          "hjustify": "C", 
+          "text": "#PWR2", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -75, 
+              -25
+            ], 
+            [
+              75, 
+              25
+            ]
+          ], 
+          "italic": false, 
+          "y": -450, 
+          "x": -2550, 
+          "size": "30", 
+          "id": "52e9730a-411b-7b40-8769-0706cdd5b174,2e293482-9512-0ea4-7f41-02b75d1185ad", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "GND", 
+          "hjustify": "C", 
+          "text": "~GND", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -45, 
+              45
+            ], 
+            [
+              45, 
+              95
+            ]
+          ], 
+          "italic": false, 
+          "y": -520, 
+          "x": -2550, 
+          "size": "30", 
+          "id": "52e9730a-411b-7b40-8769-0706cdd5b174,2fd5eceb-693f-cd2e-f5cb-a0bf4cb11912", 
+          "bold": false
+        }
+      ], 
+      "y": -450, 
+      "x": -2550, 
+      "type": "component", 
+      "id": "52e9730a-411b-7b40-8769-0706cdd5b174", 
+      "hideFlag": false, 
+      "name": "~GND"
+    }, 
+    {
+      "startx": -2550, 
+      "starty": -450, 
+      "endy": -600, 
+      "endx": -2550, 
+      "data": {
+        "netcode": 1, 
+        "y1": -600, 
+        "y0": -450, 
+        "x0": -2550, 
+        "x1": -2550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -2600, 
+          -600
+        ], 
+        [
+          -2500, 
+          -450
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "e9ae2451-0118-124e-31d1-92d7f01655d9", 
+      "hideFlag": false
+    }, 
+    {
+      "y": -1000, 
+      "x": -2450, 
+      "type": "noconn", 
+      "id": "844e44bb-cec0-6968-f391-6b4d6c181fd5", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 1300, 
+      "x": -1050, 
+      "type": "noconn", 
+      "id": "39204e17-e799-6f39-a035-735fb8e53023", 
+      "hideFlag": false
+    }, 
+    {
+      "reference": "#PWR3", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "powerPinData": {
+        "1": {
+          "y": 550, 
+          "x": -3200, 
+          "netcode": 4, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "#PWR3", 
+          "hjustify": "C", 
+          "text": "#PWR3", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -75, 
+              -125
+            ], 
+            [
+              75, 
+              -75
+            ]
+          ], 
+          "italic": false, 
+          "y": 650, 
+          "x": -3200, 
+          "size": "30", 
+          "id": "265d1126-cce2-d9d3-8307-72efe0bea542,214a7bcb-da82-1815-1e0b-0ad2f4e24f95", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "VCC", 
+          "hjustify": "C", 
+          "text": "VCC", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -45, 
+              -125
+            ], 
+            [
+              45, 
+              -75
+            ]
+          ], 
+          "italic": false, 
+          "y": 650, 
+          "x": -3200, 
+          "size": "30", 
+          "id": "265d1126-cce2-d9d3-8307-72efe0bea542,13adc174-535e-7ae1-c1d5-7be858f83cd6", 
+          "bold": false
+        }
+      ], 
+      "y": 550, 
+      "x": -3200, 
+      "type": "component", 
+      "id": "265d1126-cce2-d9d3-8307-72efe0bea542", 
+      "hideFlag": false, 
+      "name": "VCC"
+    }, 
+    {
+      "reference": "#PWR4", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "powerPinData": {
+        "1": {
+          "y": 1500, 
+          "x": -3200, 
+          "netcode": 1, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "#PWR4", 
+          "hjustify": "C", 
+          "text": "#PWR4", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -75, 
+              -25
+            ], 
+            [
+              75, 
+              25
+            ]
+          ], 
+          "italic": false, 
+          "y": 1500, 
+          "x": -3200, 
+          "size": "30", 
+          "id": "e79b2bed-ed8e-f319-8c18-0531c7999b2b,2f0d9f9b-278b-4a1a-14e3-1d8d4796bdc8", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "GND", 
+          "hjustify": "C", 
+          "text": "~GND", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": false, 
+          "bounding_box": [
+            [
+              -45, 
+              45
+            ], 
+            [
+              45, 
+              95
+            ]
+          ], 
+          "italic": false, 
+          "y": 1430, 
+          "x": -3200, 
+          "size": "30", 
+          "id": "e79b2bed-ed8e-f319-8c18-0531c7999b2b,bf376fee-191e-8a84-fe6d-20f31c57e727", 
+          "bold": false
+        }
+      ], 
+      "y": 1500, 
+      "x": -3200, 
+      "type": "component", 
+      "id": "e79b2bed-ed8e-f319-8c18-0531c7999b2b", 
+      "hideFlag": false, 
+      "name": "~GND"
+    }, 
+    {
+      "startx": -3200, 
+      "starty": 1500, 
+      "endy": 1300, 
+      "endx": -3200, 
+      "data": {
+        "netcode": 1, 
+        "y1": 1300, 
+        "y0": 1500, 
+        "x0": -3200, 
+        "x1": -3200, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3250, 
+          1300
+        ], 
+        [
+          -3150, 
+          1500
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "10d9b7e7-33e4-d690-a026-6f5be729a840", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3200, 
+      "starty": 1300, 
+      "endy": 1300, 
+      "endx": -3050, 
+      "data": {
+        "netcode": 1, 
+        "y1": 1300, 
+        "y0": 1300, 
+        "x0": -3200, 
+        "x1": -3050, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3200, 
+          1250
+        ], 
+        [
+          -3050, 
+          1350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "a693ea06-6067-d6a4-2cfd-bdc3e82a7240", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3050, 
+      "starty": 800, 
+      "endy": 800, 
+      "endx": -3200, 
+      "data": {
+        "netcode": 4, 
+        "y1": 800, 
+        "y0": 800, 
+        "x0": -3050, 
+        "x1": -3200, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3200, 
+          750
+        ], 
+        [
+          -3050, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "24509ca8-4a2d-586f-6e1a-83809f4ad1f9", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3200, 
+      "starty": 800, 
+      "endy": 550, 
+      "endx": -3200, 
+      "data": {
+        "netcode": 4, 
+        "y1": 550, 
+        "y0": 800, 
+        "x0": -3200, 
+        "x1": -3200, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3250, 
+          550
+        ], 
+        [
+          -3150, 
+          800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "551d9318-dbba-6e63-bcfd-8114229603f7", 
+      "hideFlag": false
+    }, 
+    {
+      "reference": "R1", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "V", 
+          "reference": "R1", 
+          "hjustify": "C", 
+          "text": "R1", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              46.666666666666664, 
+              -40
+            ], 
+            [
+              113.33333333333334, 
+              40
+            ]
+          ], 
+          "italic": false, 
+          "y": 400, 
+          "x": 630, 
+          "size": "40", 
+          "id": "6a0948b7-65ce-2685-0728-0dc9e456a4be,58ed1bdf-e0b2-3a78-909d-fed1048939ab", 
+          "bold": false
+        }, 
+        {
+          "orientation": "V", 
+          "reference": "R", 
+          "hjustify": "C", 
+          "text": "R", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -26.333333333333336, 
+              -21
+            ], 
+            [
+              40.333333333333336, 
+              19
+            ]
+          ], 
+          "italic": false, 
+          "y": 401, 
+          "x": 557, 
+          "size": "40", 
+          "id": "6a0948b7-65ce-2685-0728-0dc9e456a4be,00b04ca1-7033-eef2-fb51-397c3c87e16f", 
+          "bold": false
+        }
+      ], 
+      "y": 400, 
+      "x": 550, 
+      "pinData": {
+        "1": {
+          "y": 150, 
+          "x": 550, 
+          "netcode": 37, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 650, 
+          "x": 550, 
+          "netcode": 7, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "6a0948b7-65ce-2685-0728-0dc9e456a4be", 
+      "hideFlag": false, 
+      "name": "R"
+    }, 
+    {
+      "reference": "D1", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D1", 
+          "hjustify": "C", 
+          "text": "D1", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 500, 
+          "x": 1100, 
+          "size": "50", 
+          "id": "8faa4e66-bb5a-323d-77c1-48c0e372faff,c6a03c1d-0f8a-4be4-d395-c7f53800f2d7", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 300, 
+          "x": 1100, 
+          "size": "50", 
+          "id": "8faa4e66-bb5a-323d-77c1-48c0e372faff,acb5912a-6f19-e448-35a9-9d8d032baba1", 
+          "bold": false
+        }
+      ], 
+      "y": 400, 
+      "x": 1100, 
+      "pinData": {
+        "1": {
+          "y": 200, 
+          "x": 1100, 
+          "netcode": 41, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 600, 
+          "x": 1100, 
+          "netcode": 7, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "8faa4e66-bb5a-323d-77c1-48c0e372faff", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D2", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D2", 
+          "hjustify": "C", 
+          "text": "D2", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 500, 
+          "x": 1650, 
+          "size": "50", 
+          "id": "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed,54035300-df5b-23ca-b64e-e650468bcaf9", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 300, 
+          "x": 1650, 
+          "size": "50", 
+          "id": "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed,03a398d3-a698-1c13-6434-e42958591cac", 
+          "bold": false
+        }
+      ], 
+      "y": 400, 
+      "x": 1650, 
+      "pinData": {
+        "1": {
+          "y": 200, 
+          "x": 1650, 
+          "netcode": 45, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 600, 
+          "x": 1650, 
+          "netcode": 7, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "54b5faa1-ce7b-9fcd-f0e4-05eee28a14ed", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D3", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D3", 
+          "hjustify": "C", 
+          "text": "D3", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 500, 
+          "x": 2150, 
+          "size": "50", 
+          "id": "a8a17d8e-f568-053a-5e70-35907ddb04d6,138c1bce-4572-0383-c32f-56cda3420fc4", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 300, 
+          "x": 2150, 
+          "size": "50", 
+          "id": "a8a17d8e-f568-053a-5e70-35907ddb04d6,29917e6d-b85d-8535-e5ab-01ce174377bd", 
+          "bold": false
+        }
+      ], 
+      "y": 400, 
+      "x": 2150, 
+      "pinData": {
+        "1": {
+          "y": 200, 
+          "x": 2150, 
+          "netcode": 49, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 600, 
+          "x": 2150, 
+          "netcode": 7, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "a8a17d8e-f568-053a-5e70-35907ddb04d6", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D4", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D4", 
+          "hjustify": "C", 
+          "text": "D4", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 1250, 
+          "x": 550, 
+          "size": "50", 
+          "id": "fa81f438-84fa-c29c-6b9d-6100cb9bf949,8b75750b-f3d5-5a6d-5e99-eaa870f9f6cb", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 1050, 
+          "x": 550, 
+          "size": "50", 
+          "id": "fa81f438-84fa-c29c-6b9d-6100cb9bf949,0bbcf313-f006-b4fc-761f-be768bd29476", 
+          "bold": false
+        }
+      ], 
+      "y": 1150, 
+      "x": 550, 
+      "pinData": {
+        "1": {
+          "y": 950, 
+          "x": 550, 
+          "netcode": 37, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 1350, 
+          "x": 550, 
+          "netcode": 17, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "fa81f438-84fa-c29c-6b9d-6100cb9bf949", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D5", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D5", 
+          "hjustify": "C", 
+          "text": "D5", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 1250, 
+          "x": 1650, 
+          "size": "50", 
+          "id": "b90ce9dc-d770-7276-adf9-f67bbab64203,844c5b8e-d404-ad89-b6bd-82dc28a15a5d", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 1050, 
+          "x": 1650, 
+          "size": "50", 
+          "id": "b90ce9dc-d770-7276-adf9-f67bbab64203,2121d3e0-57e3-e3dd-d68e-d420c2216c5a", 
+          "bold": false
+        }
+      ], 
+      "y": 1150, 
+      "x": 1650, 
+      "pinData": {
+        "1": {
+          "y": 950, 
+          "x": 1650, 
+          "netcode": 45, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 1350, 
+          "x": 1650, 
+          "netcode": 17, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "b90ce9dc-d770-7276-adf9-f67bbab64203", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D6", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D6", 
+          "hjustify": "C", 
+          "text": "D6", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 1250, 
+          "x": 2150, 
+          "size": "50", 
+          "id": "7d48bb9d-aded-bd73-0943-80e91caaf083,fca0347e-1084-5de7-9400-1f6ccfa93634", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 1050, 
+          "x": 2150, 
+          "size": "50", 
+          "id": "7d48bb9d-aded-bd73-0943-80e91caaf083,479fe7ad-6514-3895-e5d1-01c141dbbf05", 
+          "bold": false
+        }
+      ], 
+      "y": 1150, 
+      "x": 2150, 
+      "pinData": {
+        "1": {
+          "y": 950, 
+          "x": 2150, 
+          "netcode": 49, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 1350, 
+          "x": 2150, 
+          "netcode": 17, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "7d48bb9d-aded-bd73-0943-80e91caaf083", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "R2", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "V", 
+          "reference": "R2", 
+          "hjustify": "C", 
+          "text": "R2", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              46.666666666666664, 
+              -40
+            ], 
+            [
+              113.33333333333334, 
+              40
+            ]
+          ], 
+          "italic": false, 
+          "y": 1200, 
+          "x": 1180, 
+          "size": "40", 
+          "id": "f613f3be-f356-5602-c3ce-8e2d9b340f75,b3fd541c-beab-496b-1a7b-048b295f54d3", 
+          "bold": false
+        }, 
+        {
+          "orientation": "V", 
+          "reference": "R", 
+          "hjustify": "C", 
+          "text": "R", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -26.333333333333336, 
+              -21
+            ], 
+            [
+              40.333333333333336, 
+              19
+            ]
+          ], 
+          "italic": false, 
+          "y": 1201, 
+          "x": 1107, 
+          "size": "40", 
+          "id": "f613f3be-f356-5602-c3ce-8e2d9b340f75,c20c3861-91e1-d1e8-de84-d7cba6fc3334", 
+          "bold": false
+        }
+      ], 
+      "y": 1200, 
+      "x": 1100, 
+      "pinData": {
+        "1": {
+          "y": 950, 
+          "x": 1100, 
+          "netcode": 41, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 1450, 
+          "x": 1100, 
+          "netcode": 17, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "f613f3be-f356-5602-c3ce-8e2d9b340f75", 
+      "hideFlag": false, 
+      "name": "R"
+    }, 
+    {
+      "reference": "D7", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D7", 
+          "hjustify": "C", 
+          "text": "D7", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 2100, 
+          "x": 550, 
+          "size": "50", 
+          "id": "65654c19-a4a3-64f9-a649-852581a5f787,dedb190d-fdd8-f2c5-2c9a-1bc088d17fce", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 1900, 
+          "x": 550, 
+          "size": "50", 
+          "id": "65654c19-a4a3-64f9-a649-852581a5f787,57b28243-a0dd-0cee-1b35-be4e4527dc56", 
+          "bold": false
+        }
+      ], 
+      "y": 2000, 
+      "x": 550, 
+      "pinData": {
+        "1": {
+          "y": 1800, 
+          "x": 550, 
+          "netcode": 37, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 2200, 
+          "x": 550, 
+          "netcode": 27, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "65654c19-a4a3-64f9-a649-852581a5f787", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D8", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D8", 
+          "hjustify": "C", 
+          "text": "D8", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 2100, 
+          "x": 1100, 
+          "size": "50", 
+          "id": "c56c81da-9dfc-ee01-b5e4-c1727d0691cc,3d7fff2d-a611-9476-c107-8fe31e008c4c", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 1900, 
+          "x": 1100, 
+          "size": "50", 
+          "id": "c56c81da-9dfc-ee01-b5e4-c1727d0691cc,7dc7c085-14c8-ecdd-e577-0a134a850c12", 
+          "bold": false
+        }
+      ], 
+      "y": 2000, 
+      "x": 1100, 
+      "pinData": {
+        "1": {
+          "y": 1800, 
+          "x": 1100, 
+          "netcode": 41, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 2200, 
+          "x": 1100, 
+          "netcode": 27, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "c56c81da-9dfc-ee01-b5e4-c1727d0691cc", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "D9", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          0, 
+          1
+        ], 
+        [
+          1, 
+          0
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "D9", 
+          "hjustify": "C", 
+          "text": "D9", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -50, 
+              -141.66666666666669
+            ], 
+            [
+              50, 
+              -58.33333333333333
+            ]
+          ], 
+          "italic": false, 
+          "y": 2050, 
+          "x": 2150, 
+          "size": "50", 
+          "id": "f17b7f49-e9cd-a71a-297e-761db9e03ebe,86b9ae1c-2ca6-3d78-2203-04fd9b70f9eb", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "LED", 
+          "hjustify": "C", 
+          "text": "LED", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -75, 
+              58.33333333333333
+            ], 
+            [
+              75, 
+              141.66666666666669
+            ]
+          ], 
+          "italic": false, 
+          "y": 1850, 
+          "x": 2150, 
+          "size": "50", 
+          "id": "f17b7f49-e9cd-a71a-297e-761db9e03ebe,cd794ef0-7869-d082-be65-b20b1490a4d7", 
+          "bold": false
+        }
+      ], 
+      "y": 1950, 
+      "x": 2150, 
+      "pinData": {
+        "1": {
+          "y": 1750, 
+          "x": 2150, 
+          "netcode": 49, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 2150, 
+          "x": 2150, 
+          "netcode": 27, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "f17b7f49-e9cd-a71a-297e-761db9e03ebe", 
+      "hideFlag": false, 
+      "name": "LED"
+    }, 
+    {
+      "reference": "R3", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "V", 
+          "reference": "R3", 
+          "hjustify": "C", 
+          "text": "R3", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              46.666666666666664, 
+              -40
+            ], 
+            [
+              113.33333333333334, 
+              40
+            ]
+          ], 
+          "italic": false, 
+          "y": 2000, 
+          "x": 1730, 
+          "size": "40", 
+          "id": "af26ce76-2ae3-b857-0b2e-947b71edeaaf,f87d279d-d8f3-6734-4daa-e16f54303b3b", 
+          "bold": false
+        }, 
+        {
+          "orientation": "V", 
+          "reference": "R", 
+          "hjustify": "C", 
+          "text": "R", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -26.333333333333336, 
+              -21
+            ], 
+            [
+              40.333333333333336, 
+              19
+            ]
+          ], 
+          "italic": false, 
+          "y": 2001, 
+          "x": 1657, 
+          "size": "40", 
+          "id": "af26ce76-2ae3-b857-0b2e-947b71edeaaf,da2bedfb-dae0-8591-b9d6-c8bc9b61257f", 
+          "bold": false
+        }
+      ], 
+      "y": 2000, 
+      "x": 1650, 
+      "pinData": {
+        "1": {
+          "y": 1750, 
+          "x": 1650, 
+          "netcode": 45, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 2250, 
+          "x": 1650, 
+          "netcode": 27, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "af26ce76-2ae3-b857-0b2e-947b71edeaaf", 
+      "hideFlag": false, 
+      "name": "R"
+    }, 
+    {
+      "reference": "R4", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "V", 
+          "reference": "R4", 
+          "hjustify": "C", 
+          "text": "R4", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              46.666666666666664, 
+              -40
+            ], 
+            [
+              113.33333333333334, 
+              40
+            ]
+          ], 
+          "italic": false, 
+          "y": 2950, 
+          "x": 2230, 
+          "size": "40", 
+          "id": "5ce89d52-1ecb-e882-7c54-a40fbaa6c476,cfba820f-18c2-3018-11df-d5c7a042a518", 
+          "bold": false
+        }, 
+        {
+          "orientation": "V", 
+          "reference": "R", 
+          "hjustify": "C", 
+          "text": "R", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              -26.333333333333336, 
+              -21
+            ], 
+            [
+              40.333333333333336, 
+              19
+            ]
+          ], 
+          "italic": false, 
+          "y": 2951, 
+          "x": 2157, 
+          "size": "40", 
+          "id": "5ce89d52-1ecb-e882-7c54-a40fbaa6c476,d0ef64ad-08f6-979a-0942-124bcfdbb86c", 
+          "bold": false
+        }
+      ], 
+      "y": 2950, 
+      "x": 2150, 
+      "pinData": {
+        "1": {
+          "y": 2700, 
+          "x": 2150, 
+          "netcode": 49, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 3200, 
+          "x": 2150, 
+          "netcode": 109, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "5ce89d52-1ecb-e882-7c54-a40fbaa6c476", 
+      "hideFlag": false, 
+      "name": "R"
+    }, 
+    {
+      "startx": 0, 
+      "starty": 750, 
+      "endy": 750, 
+      "endx": 550, 
+      "data": {
+        "netcode": 7, 
+        "y1": 750, 
+        "y0": 750, 
+        "x0": 0, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          0, 
+          700
+        ], 
+        [
+          550, 
+          800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "62519a68-e3bc-6d42-3d03-27594f07e9d5", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 750, 
+      "endy": 650, 
+      "endx": 550, 
+      "data": {
+        "netcode": 7, 
+        "y1": 650, 
+        "y0": 750, 
+        "x0": 550, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          500, 
+          650
+        ], 
+        [
+          600, 
+          750
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "218b7db1-7148-7f84-01e2-be311f92b10f", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 750, 
+      "x": 550, 
+      "type": "connection", 
+      "id": "95df6b61-d2e9-73a8-dc36-8305e6bb6a65", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 750, 
+      "endy": 750, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 7, 
+        "y1": 750, 
+        "y0": 750, 
+        "x0": 550, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          550, 
+          700
+        ], 
+        [
+          1100, 
+          800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "daa8f11b-37c1-fd43-3420-6b6d052da4e4", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 750, 
+      "endy": 600, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 7, 
+        "y1": 600, 
+        "y0": 750, 
+        "x0": 1100, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1050, 
+          600
+        ], 
+        [
+          1150, 
+          750
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "20e63cc6-4a21-f0e6-7b38-845682dafa14", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 750, 
+      "x": 1100, 
+      "type": "connection", 
+      "id": "05af4ede-98f4-868a-b560-5443b8b092ce", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 750, 
+      "endy": 750, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 7, 
+        "y1": 750, 
+        "y0": 750, 
+        "x0": 1100, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1100, 
+          700
+        ], 
+        [
+          1650, 
+          800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "a1f06cea-f519-44b4-00c6-8bfbc8107d62", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 750, 
+      "endy": 600, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 7, 
+        "y1": 600, 
+        "y0": 750, 
+        "x0": 1650, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1600, 
+          600
+        ], 
+        [
+          1700, 
+          750
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "7cffa94b-629d-7c09-dcff-d1b1bcdafb5c", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 750, 
+      "x": 1650, 
+      "type": "connection", 
+      "id": "bb1c4fd4-7892-d0b2-79a7-292cda602093", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 750, 
+      "endy": 750, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 7, 
+        "y1": 750, 
+        "y0": 750, 
+        "x0": 1650, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1650, 
+          700
+        ], 
+        [
+          2150, 
+          800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "b98d54a8-833c-e312-a1d6-4c6c8aeedb4a", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 750, 
+      "endy": 600, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 7, 
+        "y1": 600, 
+        "y0": 750, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          600
+        ], 
+        [
+          2200, 
+          750
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "62e6a593-725f-4c5f-ea49-b660ddb4ad84", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 50, 
+      "starty": 1500, 
+      "endy": 1500, 
+      "endx": 550, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1500, 
+        "y0": 1500, 
+        "x0": 50, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          50, 
+          1450
+        ], 
+        [
+          550, 
+          1550
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "636dcc01-09c8-1c10-7191-7a0631d2f5ce", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 1500, 
+      "endy": 1350, 
+      "endx": 550, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1350, 
+        "y0": 1500, 
+        "x0": 550, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          500, 
+          1350
+        ], 
+        [
+          600, 
+          1500
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "4000ac49-0ef9-b464-df16-11140bf8f943", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 1500, 
+      "x": 550, 
+      "type": "connection", 
+      "id": "2c910f68-1af3-0aa7-452c-c3d6bcfb0bba", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 1500, 
+      "endy": 1500, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1500, 
+        "y0": 1500, 
+        "x0": 550, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          550, 
+          1450
+        ], 
+        [
+          1100, 
+          1550
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "a60cae7f-e240-e781-fdac-4798991af8de", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 1500, 
+      "endy": 1450, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1450, 
+        "y0": 1500, 
+        "x0": 1100, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1050, 
+          1450
+        ], 
+        [
+          1150, 
+          1500
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "5853b731-355a-bb12-5c69-9e95fb72629c", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 1500, 
+      "x": 1100, 
+      "type": "connection", 
+      "id": "b3ee9172-dc7c-cd4b-f4e2-3d96bdd3539b", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 1500, 
+      "endy": 1500, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1500, 
+        "y0": 1500, 
+        "x0": 1100, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1100, 
+          1450
+        ], 
+        [
+          1650, 
+          1550
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "fd45b1d6-33a1-661b-4fce-ba9ba68e985a", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 1500, 
+      "endy": 1350, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1350, 
+        "y0": 1500, 
+        "x0": 1650, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1600, 
+          1350
+        ], 
+        [
+          1700, 
+          1500
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "eae4609c-6ba7-0656-5a92-d87a7956e282", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 1500, 
+      "x": 1650, 
+      "type": "connection", 
+      "id": "b30f0d3a-bc2f-b9d5-4b4b-0f5a49639ec3", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 1500, 
+      "endy": 1500, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1500, 
+        "y0": 1500, 
+        "x0": 1650, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1650, 
+          1450
+        ], 
+        [
+          2150, 
+          1550
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "6bd48f8d-5a40-6efe-3df8-8f1963ca442a", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 1500, 
+      "endy": 1350, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 17, 
+        "y1": 1350, 
+        "y0": 1500, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          1350
+        ], 
+        [
+          2200, 
+          1500
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "5f434b3a-4921-86e0-485e-f17f927a8edc", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 100, 
+      "starty": 2300, 
+      "endy": 2300, 
+      "endx": 550, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2300, 
+        "y0": 2300, 
+        "x0": 100, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          100, 
+          2250
+        ], 
+        [
+          550, 
+          2350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "d5537ef2-f2ac-70d4-b5db-2524ff80d337", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 2300, 
+      "endy": 2200, 
+      "endx": 550, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2200, 
+        "y0": 2300, 
+        "x0": 550, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          500, 
+          2200
+        ], 
+        [
+          600, 
+          2300
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "9846aa4a-91b0-e879-2212-cfb1ad6d8bf9", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 2300, 
+      "x": 550, 
+      "type": "connection", 
+      "id": "26e7fc4d-81c9-ffc7-7536-67928cfb5258", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 2300, 
+      "endy": 2300, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2300, 
+        "y0": 2300, 
+        "x0": 550, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          550, 
+          2250
+        ], 
+        [
+          1100, 
+          2350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "cd56f7d0-93dd-3b23-23b8-b955ea593b3a", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 2300, 
+      "endy": 2200, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2200, 
+        "y0": 2300, 
+        "x0": 1100, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1050, 
+          2200
+        ], 
+        [
+          1150, 
+          2300
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "ffc89d7d-2014-6bec-f03b-790a00635dd7", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 2300, 
+      "x": 1100, 
+      "type": "connection", 
+      "id": "1b7a5c29-d72d-dcb0-2ed2-c6f3fb4bb2f5", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 2300, 
+      "endy": 2300, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2300, 
+        "y0": 2300, 
+        "x0": 1100, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1100, 
+          2250
+        ], 
+        [
+          1650, 
+          2350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "962f933c-d519-8f3f-01b2-8de596dd67ff", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 2300, 
+      "endy": 2250, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2250, 
+        "y0": 2300, 
+        "x0": 1650, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1600, 
+          2250
+        ], 
+        [
+          1700, 
+          2300
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "95e24daf-646e-50a3-53ab-cba9cfa2bba3", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 2300, 
+      "x": 1650, 
+      "type": "connection", 
+      "id": "7cb7a59a-667b-d869-cf4f-e97b2de2c358", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 2300, 
+      "endy": 2300, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2300, 
+        "y0": 2300, 
+        "x0": 1650, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1650, 
+          2250
+        ], 
+        [
+          2150, 
+          2350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "2fa31825-8b01-0712-1bfa-635e6e166cca", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 2300, 
+      "endy": 2150, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 27, 
+        "y1": 2150, 
+        "y0": 2300, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          2150
+        ], 
+        [
+          2200, 
+          2300
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "8aa46ef3-448e-678a-4c28-c5ac0cdb9e7c", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 3200, 
+      "endy": 3300, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 109, 
+        "y1": 3300, 
+        "y0": 3200, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          3200
+        ], 
+        [
+          2200, 
+          3300
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "448d3473-0e46-5482-dfc9-359d3507c1c2", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 3300, 
+      "endy": 3300, 
+      "endx": 150, 
+      "data": {
+        "netcode": 109, 
+        "y1": 3300, 
+        "y0": 3300, 
+        "x0": 2150, 
+        "x1": 150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          150, 
+          3250
+        ], 
+        [
+          2150, 
+          3350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "1ef840a8-c0b5-5d8f-8276-6c71a27216d1", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 150, 
+      "endy": -50, 
+      "endx": 550, 
+      "data": {
+        "netcode": 37, 
+        "y1": -50, 
+        "y0": 150, 
+        "x0": 550, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          500, 
+          -50
+        ], 
+        [
+          600, 
+          150
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "91d9456e-1164-e412-f084-af76eadf1617", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": -50, 
+      "endy": -50, 
+      "endx": 300, 
+      "data": {
+        "netcode": 37, 
+        "y1": -50, 
+        "y0": -50, 
+        "x0": 550, 
+        "x1": 300, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          300, 
+          -100
+        ], 
+        [
+          550, 
+          0
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "b308417a-afad-dc59-3492-bf5b29907085", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 300, 
+      "starty": -50, 
+      "endy": 850, 
+      "endx": 300, 
+      "data": {
+        "netcode": 37, 
+        "y1": 850, 
+        "y0": -50, 
+        "x0": 300, 
+        "x1": 300, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          250, 
+          -50
+        ], 
+        [
+          350, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "0744d42f-0831-256e-2b85-1b7202f54ad3", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 300, 
+      "starty": 850, 
+      "endy": 850, 
+      "endx": 550, 
+      "data": {
+        "netcode": 37, 
+        "y1": 850, 
+        "y0": 850, 
+        "x0": 300, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          300, 
+          800
+        ], 
+        [
+          550, 
+          900
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "18484196-3922-eaa7-8d79-208c6b14838c", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 850, 
+      "endy": 950, 
+      "endx": 550, 
+      "data": {
+        "netcode": 37, 
+        "y1": 950, 
+        "y0": 850, 
+        "x0": 550, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          500, 
+          850
+        ], 
+        [
+          600, 
+          950
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "c6a8907a-a713-23e9-5215-0ce7cbd763ee", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 850, 
+      "x": 300, 
+      "type": "connection", 
+      "id": "7b1a3b6a-a56a-1fe4-397a-1732b34cd909", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 300, 
+      "starty": 850, 
+      "endy": 1600, 
+      "endx": 300, 
+      "data": {
+        "netcode": 37, 
+        "y1": 1600, 
+        "y0": 850, 
+        "x0": 300, 
+        "x1": 300, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          250, 
+          850
+        ], 
+        [
+          350, 
+          1600
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "57ca2e22-36c3-e67b-b9ea-1df4c9fe4761", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 300, 
+      "starty": 1600, 
+      "endy": 1600, 
+      "endx": 550, 
+      "data": {
+        "netcode": 37, 
+        "y1": 1600, 
+        "y0": 1600, 
+        "x0": 300, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          300, 
+          1550
+        ], 
+        [
+          550, 
+          1650
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "31ebe039-fc39-342d-feba-5e46ec28831f", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 550, 
+      "starty": 1600, 
+      "endy": 1800, 
+      "endx": 550, 
+      "data": {
+        "netcode": 37, 
+        "y1": 1800, 
+        "y0": 1600, 
+        "x0": 550, 
+        "x1": 550, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          500, 
+          1600
+        ], 
+        [
+          600, 
+          1800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "52d5d811-9417-2753-c068-2781745d78d4", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 1800, 
+      "endy": 1600, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 41, 
+        "y1": 1600, 
+        "y0": 1800, 
+        "x0": 1100, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1050, 
+          1600
+        ], 
+        [
+          1150, 
+          1800
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "76383b34-c8de-13ad-f999-1b27996dc24e", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 1600, 
+      "endy": 1600, 
+      "endx": 900, 
+      "data": {
+        "netcode": 41, 
+        "y1": 1600, 
+        "y0": 1600, 
+        "x0": 1100, 
+        "x1": 900, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          900, 
+          1550
+        ], 
+        [
+          1100, 
+          1650
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "2c6d1b3b-e193-26a7-83d1-d4700c639efc", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 900, 
+      "starty": 1600, 
+      "endy": 850, 
+      "endx": 900, 
+      "data": {
+        "netcode": 41, 
+        "y1": 850, 
+        "y0": 1600, 
+        "x0": 900, 
+        "x1": 900, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          850, 
+          850
+        ], 
+        [
+          950, 
+          1600
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "15f45686-d79e-f1b1-7b5f-3f5036518e39", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 900, 
+      "starty": 850, 
+      "endy": 850, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 41, 
+        "y1": 850, 
+        "y0": 850, 
+        "x0": 900, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          900, 
+          800
+        ], 
+        [
+          1100, 
+          900
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "aeff30b1-8233-f14f-6dc3-be2d2388a8c2", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": 850, 
+      "endy": 950, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 41, 
+        "y1": 950, 
+        "y0": 850, 
+        "x0": 1100, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1050, 
+          850
+        ], 
+        [
+          1150, 
+          950
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "4d27fd64-4e31-44c4-39bb-03455588f156", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 850, 
+      "x": 900, 
+      "type": "connection", 
+      "id": "dc035c66-d45b-3a85-bd92-70d5edad8d60", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 900, 
+      "starty": 850, 
+      "endy": -50, 
+      "endx": 900, 
+      "data": {
+        "netcode": 41, 
+        "y1": -50, 
+        "y0": 850, 
+        "x0": 900, 
+        "x1": 900, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          850, 
+          -50
+        ], 
+        [
+          950, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "7932f3c7-4ad9-c24f-2c89-ce5365eaff4f", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 900, 
+      "starty": -50, 
+      "endy": -50, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 41, 
+        "y1": -50, 
+        "y0": -50, 
+        "x0": 900, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          900, 
+          -100
+        ], 
+        [
+          1100, 
+          0
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "eee3d95a-4264-1ac4-2a7c-30a5109631d6", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1100, 
+      "starty": -50, 
+      "endy": 200, 
+      "endx": 1100, 
+      "data": {
+        "netcode": 41, 
+        "y1": 200, 
+        "y0": -50, 
+        "x0": 1100, 
+        "x1": 1100, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1050, 
+          -50
+        ], 
+        [
+          1150, 
+          200
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "a69557e9-a9f2-4a2b-cf3b-41c13ff171a5", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 200, 
+      "endy": -50, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 45, 
+        "y1": -50, 
+        "y0": 200, 
+        "x0": 1650, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1600, 
+          -50
+        ], 
+        [
+          1700, 
+          200
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "fffd6d3c-9e35-96d3-ac30-461e84433a14", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": -50, 
+      "endy": -50, 
+      "endx": 1400, 
+      "data": {
+        "netcode": 45, 
+        "y1": -50, 
+        "y0": -50, 
+        "x0": 1650, 
+        "x1": 1400, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1400, 
+          -100
+        ], 
+        [
+          1650, 
+          0
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "1ab941a9-73f8-b6a0-58a7-f400f0639faa", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1400, 
+      "starty": -50, 
+      "endy": 850, 
+      "endx": 1400, 
+      "data": {
+        "netcode": 45, 
+        "y1": 850, 
+        "y0": -50, 
+        "x0": 1400, 
+        "x1": 1400, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1350, 
+          -50
+        ], 
+        [
+          1450, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "04407c71-5fb9-d9ba-8441-d5d4fd7a813f", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1400, 
+      "starty": 850, 
+      "endy": 850, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 45, 
+        "y1": 850, 
+        "y0": 850, 
+        "x0": 1400, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1400, 
+          800
+        ], 
+        [
+          1650, 
+          900
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "1ad4b3b8-9071-27ff-114f-14f3772d8919", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 850, 
+      "endy": 950, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 45, 
+        "y1": 950, 
+        "y0": 850, 
+        "x0": 1650, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1600, 
+          850
+        ], 
+        [
+          1700, 
+          950
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "5b8b5af7-b951-dfd4-5813-47bedfdf3f8e", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 850, 
+      "x": 1400, 
+      "type": "connection", 
+      "id": "fa71bdba-a6d2-4e6e-f529-a331c88053e5", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1400, 
+      "starty": 850, 
+      "endy": 1600, 
+      "endx": 1400, 
+      "data": {
+        "netcode": 45, 
+        "y1": 1600, 
+        "y0": 850, 
+        "x0": 1400, 
+        "x1": 1400, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1350, 
+          850
+        ], 
+        [
+          1450, 
+          1600
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "7afd4630-6a76-1603-6494-b5a68cff818b", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1400, 
+      "starty": 1600, 
+      "endy": 1600, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 45, 
+        "y1": 1600, 
+        "y0": 1600, 
+        "x0": 1400, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1400, 
+          1550
+        ], 
+        [
+          1650, 
+          1650
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "cfe10c97-ec13-a5a0-2bb2-a00d5f9ba2a2", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1650, 
+      "starty": 1600, 
+      "endy": 1750, 
+      "endx": 1650, 
+      "data": {
+        "netcode": 45, 
+        "y1": 1750, 
+        "y0": 1600, 
+        "x0": 1650, 
+        "x1": 1650, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1600, 
+          1600
+        ], 
+        [
+          1700, 
+          1750
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "c0538768-d399-e6fe-ef5a-b43801e9b9b3", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 2700, 
+      "endy": 2450, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": 2450, 
+        "y0": 2700, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          2450
+        ], 
+        [
+          2200, 
+          2700
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "2aa85d10-689c-b4a2-0663-023c5f8ac9e9", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 2450, 
+      "endy": 2450, 
+      "endx": 1950, 
+      "data": {
+        "netcode": 49, 
+        "y1": 2450, 
+        "y0": 2450, 
+        "x0": 2150, 
+        "x1": 1950, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1950, 
+          2400
+        ], 
+        [
+          2150, 
+          2500
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "2492c1b5-c3d5-98d0-bf40-d78a8de9eb6a", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1950, 
+      "starty": 2450, 
+      "endy": 1600, 
+      "endx": 1950, 
+      "data": {
+        "netcode": 49, 
+        "y1": 1600, 
+        "y0": 2450, 
+        "x0": 1950, 
+        "x1": 1950, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1900, 
+          1600
+        ], 
+        [
+          2000, 
+          2450
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "f9ed6cee-2706-868c-22e4-7afcc9e16683", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1950, 
+      "starty": 1600, 
+      "endy": 1600, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": 1600, 
+        "y0": 1600, 
+        "x0": 1950, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1950, 
+          1550
+        ], 
+        [
+          2150, 
+          1650
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "3830645c-56fd-aa52-b32a-a6e7128c6e13", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 1600, 
+      "endy": 1750, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": 1750, 
+        "y0": 1600, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          1600
+        ], 
+        [
+          2200, 
+          1750
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "0d394532-6b1f-945b-be92-f78cda95ee20", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 1600, 
+      "x": 1950, 
+      "type": "connection", 
+      "id": "3bcf7cd1-d842-1ab2-5ffb-e7321de32925", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1950, 
+      "starty": 1600, 
+      "endy": 850, 
+      "endx": 1950, 
+      "data": {
+        "netcode": 49, 
+        "y1": 850, 
+        "y0": 1600, 
+        "x0": 1950, 
+        "x1": 1950, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1900, 
+          850
+        ], 
+        [
+          2000, 
+          1600
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "b58b045d-7fe8-66e3-6aba-d43a2a481553", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1950, 
+      "starty": 850, 
+      "endy": 850, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": 850, 
+        "y0": 850, 
+        "x0": 1950, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1950, 
+          800
+        ], 
+        [
+          2150, 
+          900
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "d71d8a83-9178-77ab-557f-977ea3a9b24b", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": 850, 
+      "endy": 950, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": 950, 
+        "y0": 850, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          850
+        ], 
+        [
+          2200, 
+          950
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "6665b88c-b053-a86f-ea34-08ae8f337c4d", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 850, 
+      "x": 1950, 
+      "type": "connection", 
+      "id": "623050a5-dfe9-024d-48b0-5c42c45b5a7b", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1950, 
+      "starty": 850, 
+      "endy": -50, 
+      "endx": 1950, 
+      "data": {
+        "netcode": 49, 
+        "y1": -50, 
+        "y0": 850, 
+        "x0": 1950, 
+        "x1": 1950, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1900, 
+          -50
+        ], 
+        [
+          2000, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "4775d404-4560-4994-28ae-2302a20d3937", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 1950, 
+      "starty": -50, 
+      "endy": -50, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": -50, 
+        "y0": -50, 
+        "x0": 1950, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          1950, 
+          -100
+        ], 
+        [
+          2150, 
+          0
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "f257f8a6-7dff-21fa-1816-66cd40b6ae7c", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": 2150, 
+      "starty": -50, 
+      "endy": 200, 
+      "endx": 2150, 
+      "data": {
+        "netcode": 49, 
+        "y1": 200, 
+        "y0": -50, 
+        "x0": 2150, 
+        "x1": 2150, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          2100, 
+          -50
+        ], 
+        [
+          2200, 
+          200
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "a258097d-6e60-afdc-d6e5-24c772a1514c", 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 2, 
+      "text": "x0", 
+      "id": "9d0a47b0-18d4-b6d1-baa2-afe7f29a8a90", 
+      "y": 750, 
+      "x": 0, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 2, 
+      "text": "x1", 
+      "id": "5e8a78eb-50fc-d58c-206f-84721de86e20", 
+      "y": 1500, 
+      "x": 50, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 2, 
+      "text": "x2", 
+      "id": "87501ae5-51a0-da26-36c8-75f475eac6ff", 
+      "y": 2300, 
+      "x": 100, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 2, 
+      "text": "x3", 
+      "id": "e1908c1c-1a16-6000-472d-fdbf55a67723", 
+      "y": 3300, 
+      "x": 150, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 0, 
+      "text": "x0", 
+      "id": "440f8470-9ad9-03ad-0cf0-302344995cfc", 
+      "y": 800, 
+      "x": -1050, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 0, 
+      "text": "x1", 
+      "id": "c8b2f9a5-9a1c-24b6-b49a-c045ad55ed6b", 
+      "y": 900, 
+      "x": -1050, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 0, 
+      "text": "x2", 
+      "id": "e1e32da9-12c3-6e5a-0bd5-71e2be5d594a", 
+      "y": 1100, 
+      "x": -1050, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "orientation": 0, 
+      "text": "x3", 
+      "id": "41c8f8fd-3cce-b904-a872-bfe26d73ae34", 
+      "y": 1200, 
+      "x": -1050, 
+      "type": "label", 
+      "dimension": 40, 
+      "hideFlag": false
+    }, 
+    {
+      "reference": "IC1", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          -1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "IC1", 
+          "hjustify": "C", 
+          "text": "IC1", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              10, 
+              -100
+            ], 
+            [
+              190, 
+              0
+            ]
+          ], 
+          "italic": false, 
+          "y": 750, 
+          "x": -1150, 
+          "size": "60", 
+          "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07,679025ba-2e6a-f7ed-629a-be616ece24e4", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "ATTINY13-P", 
+          "hjustify": "C", 
+          "text": "ATTINY13-P", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              1000, 
+              700
+            ], 
+            [
+              1600, 
+              800
+            ]
+          ], 
+          "italic": false, 
+          "y": -50, 
+          "x": 50, 
+          "size": "60", 
+          "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07,507453fe-a146-872f-1c90-cb11ef29317b", 
+          "bold": false
+        }
+      ], 
+      "y": 700, 
+      "x": -1250, 
+      "pinData": {
+        "1": {
+          "y": 1300, 
+          "x": -1050, 
+          "netcode": 138, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "3": {
+          "y": 1200, 
+          "x": -1050, 
+          "netcode": 109, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 1100, 
+          "x": -1050, 
+          "netcode": 27, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "5": {
+          "y": 800, 
+          "x": -1050, 
+          "netcode": 7, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "4": {
+          "y": 1300, 
+          "x": -3050, 
+          "netcode": 1, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "7": {
+          "y": 1000, 
+          "x": -1050, 
+          "netcode": 139, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "6": {
+          "y": 900, 
+          "x": -1050, 
+          "netcode": 17, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "8": {
+          "y": 800, 
+          "x": -3050, 
+          "netcode": 4, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "332ea4fa-4d80-7a63-bddc-de33a0252b07", 
+      "hideFlag": false, 
+      "name": "ATTINY13-P"
+    }, 
+    {
+      "y": 1000, 
+      "x": -1050, 
+      "type": "noconn", 
+      "id": "f86f49b5-6e1f-df99-0809-2762ba528611", 
+      "hideFlag": false
+    }, 
+    {
+      "reference": "C2", 
+      "nn": "1", 
+      "mm": "1", 
+      "timestamp": "5213C820", 
+      "transform": [
+        [
+          1, 
+          0
+        ], 
+        [
+          0, 
+          -1
+        ]
+      ], 
+      "text": [
+        {
+          "orientation": "H", 
+          "reference": "C2", 
+          "hjustify": "L", 
+          "text": "C2", 
+          "number": 0, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              0, 
+              -133.33333333333334
+            ], 
+            [
+              80, 
+              -66.66666666666666
+            ]
+          ], 
+          "italic": false, 
+          "y": 1150, 
+          "x": -3600, 
+          "size": "40", 
+          "id": "b7765d26-9ccd-87b6-3f57-26b8047d265d,41b54da4-2ab5-fa54-77eb-a9034b09b8db", 
+          "bold": false
+        }, 
+        {
+          "orientation": "H", 
+          "reference": "C", 
+          "hjustify": "L", 
+          "text": "C", 
+          "number": 1, 
+          "vjustify": "C", 
+          "visible": true, 
+          "bounding_box": [
+            [
+              6, 
+              51.666666666666664
+            ], 
+            [
+              46, 
+              118.33333333333334
+            ]
+          ], 
+          "italic": false, 
+          "y": 965, 
+          "x": -3594, 
+          "size": "40", 
+          "id": "b7765d26-9ccd-87b6-3f57-26b8047d265d,86c7ea48-3ae2-7aa9-2973-bbc9ad6f7022", 
+          "bold": false
+        }
+      ], 
+      "y": 1050, 
+      "x": -3600, 
+      "pinData": {
+        "1": {
+          "y": 850, 
+          "x": -3600, 
+          "netcode": 4, 
+          "type": "box", 
+          "size": 50
+        }, 
+        "2": {
+          "y": 1250, 
+          "x": -3600, 
+          "netcode": 1, 
+          "type": "box", 
+          "size": 50
+        }
+      }, 
+      "type": "component", 
+      "id": "b7765d26-9ccd-87b6-3f57-26b8047d265d", 
+      "hideFlag": false, 
+      "name": "C"
+    }, 
+    {
+      "y": 1300, 
+      "x": -3200, 
+      "type": "connection", 
+      "id": "1a495397-3c1d-d975-7ecf-52c5918915a3", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3600, 
+      "starty": 1250, 
+      "endy": 1300, 
+      "endx": -3600, 
+      "data": {
+        "netcode": 1, 
+        "y1": 1300, 
+        "y0": 1250, 
+        "x0": -3600, 
+        "x1": -3600, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3650, 
+          1250
+        ], 
+        [
+          -3550, 
+          1300
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "6ba45ec4-6dd5-8998-cd87-5fdc9113a289", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3600, 
+      "starty": 1300, 
+      "endy": 1300, 
+      "endx": -3200, 
+      "data": {
+        "netcode": 1, 
+        "y1": 1300, 
+        "y0": 1300, 
+        "x0": -3600, 
+        "x1": -3200, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3600, 
+          1250
+        ], 
+        [
+          -3200, 
+          1350
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "56528717-6da1-4658-67f9-d658466a7884", 
+      "hideFlag": false
+    }, 
+    {
+      "y": 800, 
+      "x": -3200, 
+      "type": "connection", 
+      "id": "05c290f7-d5b7-0683-d916-4d3e605deb36", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3600, 
+      "starty": 850, 
+      "endy": 800, 
+      "endx": -3600, 
+      "data": {
+        "netcode": 4, 
+        "y1": 800, 
+        "y0": 850, 
+        "x0": -3600, 
+        "x1": -3600, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3650, 
+          800
+        ], 
+        [
+          -3550, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "63b2aa37-490f-ad46-ac2d-790173ccaaf2", 
+      "hideFlag": false
+    }, 
+    {
+      "startx": -3600, 
+      "starty": 800, 
+      "endy": 800, 
+      "endx": -3200, 
+      "data": {
+        "netcode": 4, 
+        "y1": 800, 
+        "y0": 800, 
+        "x0": -3600, 
+        "x1": -3200, 
+        "type": "rect", 
+        "size": 50
+      }, 
+      "bounding_box": [
+        [
+          -3600, 
+          750
+        ], 
+        [
+          -3200, 
+          850
+        ]
+      ], 
+      "type": "wireline", 
+      "id": "5a0d4fd7-3128-2527-ae48-9d28a72247d8", 
+      "hideFlag": false
+    }, 
+    {
+      "y": -3150, 
+      "x": -10650, 
+      "type": "connection", 
+      "id": "86e47b2a-8d28-b912-9891-6738d409ae43", 
+      "hideFlag": false
+    }
+  ]
+}
