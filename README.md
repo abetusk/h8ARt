@@ -1,5 +1,7 @@
 # h8ARt
 
+![h8ARt in meatspace](img/h8ARt_pic.png)
+
 Code and Gerber files for 3x3 0603 LED heart.
 
 You can see the [project on MeowCAD](https://meowcad.com/project?projectId=12b1cb79-9d14-4319-a8cc-878b5ee93019).
@@ -48,4 +50,7 @@ Boards were manufactered through [OSHPark](https://oshpark.com/).
 
 ![brd](img/brd.png)
 
+## video
+
+[![h8ARt video](http://img.youtube.com/vi/Gg_DkGkVkSI/0.jpg)](http://www.youtube.com/watch?v=Gg_DkGkVkSI)
 
