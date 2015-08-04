@@ -3,6 +3,13 @@
 *.ko
 *.obj
 *.elf
+*.S
+*.sym
+*.lst
+*.d
+*.eep
+*.map
+*.lss
 
 # Precompiled Headers
 *.gch
@@ -30,3 +37,5 @@
 
 # Debug files
 *.dSYM/
+
+*~
